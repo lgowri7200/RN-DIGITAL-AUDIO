@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+            <style>
+                body{
+                    margin: 0;
+                }
+                .main1{
+                    width: 100vw;
+                        height: 100vh;
+            background-color: black;
+            position: relative;
+ }
+  .Sub11{
+        width: 100vw;
+    height: 70vh;
+    background-color: purple;
+    position: absolute;
+    top: 0vw;
+    left: 0vh:
+  }
+    .Sub11 img{
+   width: 100vw;
+    height: 70vh;
+    }
+    .Sub12 {
+        width: 100vw;
+    height: 25vh;
+    background-color: blue;
+    position: absolute
+    top: 70vh;
+    overflow: hidden;
+    transition: all 1s ease-in-out;
+}
+  .Sub12 img{
+        width: 100vw;
+    height: 75vh;
+  }
+  .main1:hover .sub12{
+    height: 75vh;
+    top:25vh;
+}
+.sub13{
+     position: absolute;
+    top: 3vh;
+    left: 2vw;
+    color: bisque;
+    font-size: x-large;
+}
+.sub13 td{
+    padding-left: 50p;
+}
+.sub14{
+    width: 100vw;
+    height: 30vh;
+    background-color: rosybrown;
+    position: absolute;
+    bottom: 15vh;
+    font-size: 200px;
+    font-weight: bolder;
+    text-align: center;
+    color: red;
+    transition: all 2s ease-in-out;
+}
+.main1:hover .sub14{
+left: 0vw;
+bottom: 15vh;
+} 
+.sub15{
+    position: absolute;
+    top: 2vh;
+    left: 2vw;
+}
+.sub15 img{
+    width: 100px;
+} 
+</style>
+
+            </head>
+            <body>
+                <div class="Main">
+                    <div class="Sub">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8OWr_UEnStEQBlD9JnROHS9ZVDRj43ZvbQgm-9lmeOqJQqhU&s"
+                    </div>
+                    <div class="sub12"
+                </div>
+            </div>
+            </body>
